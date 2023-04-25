@@ -18,7 +18,7 @@ function App() {
      />
      <Profilecart
      image = "https://randomuser.me/api/portraits/thumb/men/75.jpg"
-     designation = "Hacking skills"
+     designation = "Ethical Hacking"
      name = "Baba"
      jobDescripition = "softre Devloper , frontEnd  Devops ad socialmedia infuluncer"
   
