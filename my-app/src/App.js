@@ -1,6 +1,7 @@
  
 import './App.css';
 import Profilecart from './components/Profilecart';
+import Info from './data.json'
 
 
  
@@ -8,28 +9,27 @@ import Profilecart from './components/Profilecart';
 function App() {
   return (
     <div className='card-container' >
+      
+      {
+          Info.map((e)=>{
+            return(
+            <Profilecart  img = {e[" image"]}
+            dec = {e.designation}
+            name = {e.name}
+            jobdec = {e.jobDescripition}
+            
+
+
+            />
+            )
+
+          })
+      }
+
+      
   
-     <Profilecart
-     image = "https://randomuser.me/api/portraits/thumb/men/75.jpg"
-     designation = "wedeveloper"
-     name = "rahuhl"
-     jobDescripition = "softre Devloper , frontEnd  Devops ad socialmedia infuluncer"
-  
-     />
-     <Profilecart
-     image = "https://randomuser.me/api/portraits/thumb/men/75.jpg"
-     designation = "Ethical Hacking"
-     name = "Baba"
-     jobDescripition = "softre Devloper , frontEnd  Devops ad socialmedia infuluncer"
-  
-     />
-     <Profilecart
-     image = "https://randomuser.me/api/portraits/thumb/men/75.jpg"
-     designation= "javascript Drveloper"
-     name = "Ravi"
-     jobDescripition = "softre Devloper , frontEnd  Devops ad socialmedia infuluncer"
-  
-     />
+ 
+      
    
     </div>
   );
