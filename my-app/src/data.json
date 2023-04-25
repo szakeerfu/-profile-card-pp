@@ -1,0 +1,20 @@
+[
+    {
+       " image" : "https://randomuser.me/api/portraits/thumb/men/75.jpg",
+       "designation" : "wedeveloper",
+     "name" : "rahuhl",
+     "jobDescripition":"softre Devloper , frontEnd  Devops ad socialmedia infuluncer"
+    },
+    {
+       " image" : "https://randomuser.me/api/portraits/thumb/men/75.jpg",
+       "designation" : "Ethical Hacking",
+     "name" : "Baba",
+     "jobDescripition":"softre Devloper , frontEnd  Devops ad socialmedia infuluncer"
+    },
+    {
+       " image" :  "https://randomuser.me/api/portraits/thumb/men/75.jpg",
+       "designation" : "javascript Drvelope",
+     "name" : " Ravi",
+     "jobDescripition":"softre Devloper , frontEnd  Devops ad socialmedia infuluncer"
+    }
+]
